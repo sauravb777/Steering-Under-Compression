@@ -4,9 +4,7 @@ Supplementary code, data, and audit materials for:
 
 **Steering Under Compression: Dose-Response, Capability Cost, and Failure Asymmetry in Quantized LLMs**
 
-*Saurav Bhandari and Benjamin Wade, 2026*
-
----
+Saurav Bhandari and Benjamin Wade, 2026
 
 ## Contents
 
@@ -30,13 +28,13 @@ Supplementary code, data, and audit materials for:
 
 ### `data/vectors/`
 
-* 105 extracted steering vectors
-* Unit-norm `.npy` files, one per cell
+* 105 extracted steering vectors, one per cell
+* Unit-norm `.npy` files
 
 ### `method_notes/`
 
-* Preregistration and dated method notes for every analysis decision
-* Parser versions (v2, v2.3, v2.3.1)
+* Preregistration and dated method notes for each analysis decision
+* Parser versions (v2, v2.3, and v2.3.1)
 * Censored E* convention and Option C pooling notes
 * Materials corresponding to the paper's Appendix A deviation ledger
 
@@ -55,21 +53,17 @@ Supplementary code, data, and audit materials for:
 
 ### `MANIFEST.md`
 
-* SHA256 checksums for every file in the repository
-
----
+SHA256 checksums for every file in the repository.
 
 ## Environment
 
-* **PyTorch:** 2.6.0
-* **CUDA:** 12.4
-* **Transformers:** 4.57.3
-* **Hardware:** NVIDIA RTX 4090 GPUs
-* **Python dependencies:** `code/requirements.txt`
+* PyTorch 2.6.0
+* CUDA 12.4
+* Transformers 4.57.3
+* NVIDIA RTX 4090 GPUs
+* Python dependencies: `code/requirements.txt`
 
-Environment information is also recorded per run in the corresponding result files' `meta.env`.
-
----
+Environment information is recorded per run in the corresponding result files' `meta.env`.
 
 ## License
 
@@ -77,12 +71,8 @@ All rights reserved.
 
 The code, data, documentation, and other materials in this repository are provided for review and reference purposes only. No part of this repository may be used, reproduced, modified, distributed, or incorporated into other works without prior written permission from the copyright holders.
 
----
-
 ## Citation
 
-If you reference this work, please cite:
+Bhandari, Saurav, and Benjamin Wade. *Steering Under Compression: Dose-Response, Capability Cost, and Failure Asymmetry in Quantized LLMs.* 2026.
 
-**Bhandari, Saurav, and Benjamin Wade.** *Steering Under Compression: Dose-Response, Capability Cost, and Failure Asymmetry in Quantized LLMs.* 2026.
-
-The arXiv link will be added here once the paper is publicly announced.
+The arXiv link will be added here once the paper is publicly available.
