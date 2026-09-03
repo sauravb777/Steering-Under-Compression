@@ -1,0 +1,9 @@
+File:      SteerQuant_Qwen2-5-7B-Instruct_w8a16_bnb_int8_length_L14_r2_COMPLETE_20260721.json
+Created:   2026-07-21T17:56:54.486428
+Script:    steerquant_phase0_harness.py
+Source:    local inference (Qwen/Qwen2.5-7B-Instruct, w8a16_bnb_int8)
+Records:   18 alpha conditions
+Judge:     judge-free:generated-token-count
+Notes:     Efficacy from the behavioral judge above (NOT the old lexical scorer).
+           Baseline = alpha 0.0. Iso-effect (IECC) analysis: steerquant_analysis.py.
+Next step: sweep weight-only schemes (w*_bnb / _gptq / _awq) via --scheme; aggregate IECC.

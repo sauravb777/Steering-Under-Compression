@@ -1,0 +1,9 @@
+File:      SteerQuant_Mistral-7B-Instruct-v0-3_w4a16_bnb_nf4_sentiment_L16_r2_COMPLETE_20260714.json
+Created:   2026-07-14T20:14:36.972284
+Script:    steerquant_phase0_harness.py
+Source:    local inference (mistralai/Mistral-7B-Instruct-v0.3, w4a16_bnb_nf4)
+Records:   21 alpha conditions
+Judge:     {'judge': 'steerquant-judge-0.3', 'target': 'sentiment', 'backend': 'hf-classifier', 'model': 'cardiffnlp/twitter-roberta-base-sentiment-latest', 'scoring': 'logodds', 'device': 'cuda'}
+Notes:     Efficacy from the behavioral judge above (NOT the old lexical scorer).
+           Baseline = alpha 0.0. Iso-effect (IECC) analysis: steerquant_analysis.py.
+Next step: sweep weight-only schemes (w*_bnb / _gptq / _awq) via --scheme; aggregate IECC.

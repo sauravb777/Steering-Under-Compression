@@ -1,0 +1,6138 @@
+{
+ "A": {
+  "Qwen2.5-7B-Instruct": {
+   "acceptance": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "fp16": [
+    [
+     {
+      "frac": 0.5,
+      "level": 101.5,
+      "a_star": 52.13,
+      "cap0": 0.925,
+      "cap_at": 0.26,
+      "iecc": 0.665,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 121.8,
+      "a_star": 50.56,
+      "cap0": 0.925,
+      "cap_at": 0.312,
+      "iecc": 0.613,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 142.1,
+      "a_star": 48.98,
+      "cap0": 0.925,
+      "cap_at": 0.364,
+      "iecc": 0.561,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 117.8,
+      "a_star": 60.54,
+      "cap0": 0.915,
+      "cap_at": 0.0,
+      "iecc": 0.915,
+      "bracket": [
+       60.0,
+       80.0
+      ],
+      "bracket_fail": [
+       0.9,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 141.3,
+      "a_star": 57.41,
+      "cap0": 0.915,
+      "cap_at": 0.067,
+      "iecc": 0.848,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.9
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 164.9,
+      "a_star": 54.41,
+      "cap0": 0.915,
+      "cap_at": 0.144,
+      "iecc": 0.771,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.9
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 104.5,
+      "a_star": 49.28,
+      "cap0": 0.92,
+      "cap_at": 0.33,
+      "iecc": 0.59,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 125.4,
+      "a_star": 47.14,
+      "cap0": 0.92,
+      "cap_at": 0.395,
+      "iecc": 0.525,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 146.3,
+      "a_star": 44.99,
+      "cap0": 0.92,
+      "cap_at": 0.461,
+      "iecc": 0.459,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 108.0,
+      "a_star": 50.05,
+      "cap0": 0.93,
+      "cap_at": 0.368,
+      "iecc": 0.562,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 129.6,
+      "a_star": 48.06,
+      "cap0": 0.93,
+      "cap_at": 0.442,
+      "iecc": 0.488,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 151.2,
+      "a_star": 46.06,
+      "cap0": 0.93,
+      "cap_at": 0.516,
+      "iecc": 0.414,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 87.0,
+      "a_star": 51.98,
+      "cap0": 0.865,
+      "cap_at": 0.237,
+      "iecc": 0.628,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 104.4,
+      "a_star": 50.38,
+      "cap0": 0.865,
+      "cap_at": 0.284,
+      "iecc": 0.581,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 121.8,
+      "a_star": 48.77,
+      "cap0": 0.865,
+      "cap_at": 0.331,
+      "iecc": 0.534,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ]
+   ],
+   "int8": [
+    [
+     {
+      "frac": 0.5,
+      "level": 101.5,
+      "a_star": 51.19,
+      "cap0": 0.91,
+      "cap_at": 0.291,
+      "iecc": 0.619,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 121.8,
+      "a_star": 49.43,
+      "cap0": 0.91,
+      "cap_at": 0.349,
+      "iecc": 0.561,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 142.1,
+      "a_star": 47.67,
+      "cap0": 0.91,
+      "cap_at": 0.407,
+      "iecc": 0.503,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 117.8,
+      "a_star": 48.43,
+      "cap0": 0.925,
+      "cap_at": 0.275,
+      "iecc": 0.65,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 141.3,
+      "a_star": 46.11,
+      "cap0": 0.925,
+      "cap_at": 0.33,
+      "iecc": 0.595,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 164.9,
+      "a_star": 43.8,
+      "cap0": 0.925,
+      "cap_at": 0.385,
+      "iecc": 0.54,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 104.5,
+      "a_star": 49.44,
+      "cap0": 0.92,
+      "cap_at": 0.34,
+      "iecc": 0.58,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 125.4,
+      "a_star": 47.33,
+      "cap0": 0.92,
+      "cap_at": 0.408,
+      "iecc": 0.512,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 146.3,
+      "a_star": 45.22,
+      "cap0": 0.92,
+      "cap_at": 0.477,
+      "iecc": 0.443,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 108.0,
+      "a_star": 49.67,
+      "cap0": 0.905,
+      "cap_at": 0.375,
+      "iecc": 0.53,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.1,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 129.6,
+      "a_star": 47.6,
+      "cap0": 0.905,
+      "cap_at": 0.45,
+      "iecc": 0.455,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.1,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 151.2,
+      "a_star": 45.53,
+      "cap0": 0.905,
+      "cap_at": 0.524,
+      "iecc": 0.381,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.1,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 87.0,
+      "a_star": 52.69,
+      "cap0": 0.87,
+      "cap_at": 0.219,
+      "iecc": 0.651,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 104.4,
+      "a_star": 51.23,
+      "cap0": 0.87,
+      "cap_at": 0.263,
+      "iecc": 0.607,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 121.8,
+      "a_star": 49.76,
+      "cap0": 0.87,
+      "cap_at": 0.307,
+      "iecc": 0.563,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ]
+   ],
+   "nf4": [
+    [
+     {
+      "frac": 0.5,
+      "level": 101.5,
+      "a_star": 52.34,
+      "cap0": 0.885,
+      "cap_at": 0.22,
+      "iecc": 0.665,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 121.8,
+      "a_star": 50.81,
+      "cap0": 0.885,
+      "cap_at": 0.264,
+      "iecc": 0.621,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 142.1,
+      "a_star": 49.28,
+      "cap0": 0.885,
+      "cap_at": 0.308,
+      "iecc": 0.577,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 117.8,
+      "a_star": 76.75,
+      "cap0": 0.855,
+      "cap_at": 0.0,
+      "iecc": 0.855,
+      "bracket": [
+       60.0,
+       80.0
+      ],
+      "bracket_fail": [
+       0.4,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 141.3,
+      "a_star": 76.1,
+      "cap0": 0.855,
+      "cap_at": 0.0,
+      "iecc": 0.855,
+      "bracket": [
+       60.0,
+       80.0
+      ],
+      "bracket_fail": [
+       0.4,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 164.9,
+      "a_star": 75.45,
+      "cap0": 0.855,
+      "cap_at": 0.0,
+      "iecc": 0.855,
+      "bracket": [
+       60.0,
+       80.0
+      ],
+      "bracket_fail": [
+       0.4,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 104.5,
+      "a_star": 52.34,
+      "cap0": 0.895,
+      "cap_at": 0.226,
+      "iecc": 0.669,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 125.4,
+      "a_star": 50.81,
+      "cap0": 0.895,
+      "cap_at": 0.271,
+      "iecc": 0.624,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 146.3,
+      "a_star": 49.28,
+      "cap0": 0.895,
+      "cap_at": 0.316,
+      "iecc": 0.579,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 108.0,
+      "a_star": 49.71,
+      "cap0": 0.89,
+      "cap_at": 0.342,
+      "iecc": 0.548,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 129.6,
+      "a_star": 47.66,
+      "cap0": 0.89,
+      "cap_at": 0.41,
+      "iecc": 0.48,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 151.2,
+      "a_star": 45.6,
+      "cap0": 0.89,
+      "cap_at": 0.479,
+      "iecc": 0.411,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 87.0,
+      "a_star": 73.67,
+      "cap0": 0.86,
+      "cap_at": 0.0,
+      "iecc": 0.86,
+      "bracket": [
+       60.0,
+       80.0
+      ],
+      "bracket_fail": [
+       0.9,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 104.4,
+      "a_star": 72.41,
+      "cap0": 0.86,
+      "cap_at": 0.0,
+      "iecc": 0.86,
+      "bracket": [
+       60.0,
+       80.0
+      ],
+      "bracket_fail": [
+       0.9,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 121.8,
+      "a_star": 71.14,
+      "cap0": 0.86,
+      "cap_at": 0.0,
+      "iecc": 0.86,
+      "bracket": [
+       60.0,
+       80.0
+      ],
+      "bracket_fail": [
+       0.9,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ]
+   ]
+  },
+  "Meta-Llama-3.1-8B-Instruct": {
+   "acceptance": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "fp16": [
+    [
+     {
+      "frac": 0.5,
+      "level": 90.0,
+      "a_star": 14.2,
+      "cap0": 0.875,
+      "cap_at": 0.0,
+      "iecc": 0.875,
+      "bracket": [
+       12.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.8,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 108.0,
+      "a_star": 14.04,
+      "cap0": 0.875,
+      "cap_at": 0.0,
+      "iecc": 0.875,
+      "bracket": [
+       12.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.8,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 126.0,
+      "a_star": 13.88,
+      "cap0": 0.875,
+      "cap_at": 0.0,
+      "iecc": 0.875,
+      "bracket": [
+       12.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.8,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 99.5,
+      "a_star": 13.96,
+      "cap0": 0.85,
+      "cap_at": 0.0,
+      "iecc": 0.85,
+      "bracket": [
+       12.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 119.4,
+      "a_star": 13.75,
+      "cap0": 0.85,
+      "cap_at": 0.0,
+      "iecc": 0.85,
+      "bracket": [
+       12.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 139.3,
+      "a_star": 13.54,
+      "cap0": 0.85,
+      "cap_at": 0.0,
+      "iecc": 0.85,
+      "bracket": [
+       12.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 117.5,
+      "a_star": 10.32,
+      "cap0": 0.845,
+      "cap_at": 0.008,
+      "iecc": 0.837,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.3,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 141.0,
+      "a_star": 9.96,
+      "cap0": 0.845,
+      "cap_at": 0.01,
+      "iecc": 0.835,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.3
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 164.5,
+      "a_star": 9.06,
+      "cap0": 0.845,
+      "cap_at": 0.019,
+      "iecc": 0.826,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.3
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 276.5,
+      "a_star": 8.67,
+      "cap0": 0.915,
+      "cap_at": 0.125,
+      "iecc": 0.79,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.4,
+       0.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 253.8,
+      "a_star": 8.4,
+      "cap0": 0.915,
+      "cap_at": 0.145,
+      "iecc": 0.77,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.4,
+       0.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 231.1,
+      "a_star": 8.14,
+      "cap0": 0.915,
+      "cap_at": 0.165,
+      "iecc": 0.75,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.4,
+       0.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 57.2,
+      "a_star": 12.4,
+      "cap0": 0.83,
+      "cap_at": 0.0,
+      "iecc": 0.83,
+      "bracket": [
+       12.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.9,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 68.7,
+      "a_star": 11.73,
+      "cap0": 0.83,
+      "cap_at": 0.001,
+      "iecc": 0.829,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.3,
+       0.9
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 80.2,
+      "a_star": 10.58,
+      "cap0": 0.83,
+      "cap_at": 0.004,
+      "iecc": 0.826,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.3,
+       0.9
+      ],
+      "contaminated": true
+     }
+    ]
+   ],
+   "int8": [
+    [
+     {
+      "frac": 0.5,
+      "level": 90.0,
+      "a_star": 12.69,
+      "cap0": 0.87,
+      "cap_at": 0.0,
+      "iecc": 0.87,
+      "bracket": [
+       12.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.9,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 108.0,
+      "a_star": 9.97,
+      "cap0": 0.87,
+      "cap_at": 0.083,
+      "iecc": 0.787,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.1
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 126.0,
+      "a_star": 9.36,
+      "cap0": 0.87,
+      "cap_at": 0.132,
+      "iecc": 0.738,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.1
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 99.5,
+      "a_star": 11.91,
+      "cap0": 0.865,
+      "cap_at": 0.0,
+      "iecc": 0.865,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.1
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 119.4,
+      "a_star": 11.69,
+      "cap0": 0.865,
+      "cap_at": 0.0,
+      "iecc": 0.865,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.1
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 139.3,
+      "a_star": 11.47,
+      "cap0": 0.865,
+      "cap_at": 0.0,
+      "iecc": 0.865,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.1
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 117.5,
+      "a_star": 9.22,
+      "cap0": 0.86,
+      "cap_at": 0.04,
+      "iecc": 0.82,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.7
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 141.0,
+      "a_star": 0.19,
+      "cap0": 0.86,
+      "cap_at": 0.856,
+      "iecc": 0.004,
+      "bracket": [
+       0.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 164.5,
+      "a_star": 0.39,
+      "cap0": 0.86,
+      "cap_at": 0.852,
+      "iecc": 0.008,
+      "bracket": [
+       0.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 276.5,
+      "a_star": 11.08,
+      "cap0": 0.925,
+      "cap_at": 0.007,
+      "iecc": 0.918,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.3,
+       0.9
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 253.8,
+      "a_star": 10.58,
+      "cap0": 0.925,
+      "cap_at": 0.011,
+      "iecc": 0.914,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.3,
+       0.9
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 231.1,
+      "a_star": 10.09,
+      "cap0": 0.925,
+      "cap_at": 0.014,
+      "iecc": 0.911,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.3,
+       0.9
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 57.2,
+      "a_star": 10.14,
+      "cap0": 0.85,
+      "cap_at": 0.009,
+      "iecc": 0.841,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.4,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 68.7,
+      "a_star": 9.74,
+      "cap0": 0.85,
+      "cap_at": 0.022,
+      "iecc": 0.828,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.4
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 80.2,
+      "a_star": 9.32,
+      "cap0": 0.85,
+      "cap_at": 0.041,
+      "iecc": 0.809,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.4
+      ],
+      "contaminated": true
+     }
+    ]
+   ],
+   "nf4": [
+    [
+     {
+      "frac": 0.5,
+      "level": 90.0,
+      "a_star": 11.23,
+      "cap0": 0.855,
+      "cap_at": 0.014,
+      "iecc": 0.841,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 108.0,
+      "a_star": 11.07,
+      "cap0": 0.855,
+      "cap_at": 0.016,
+      "iecc": 0.839,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 126.0,
+      "a_star": 7.56,
+      "cap0": 0.855,
+      "cap_at": 0.191,
+      "iecc": 0.664,
+      "bracket": [
+       6.0,
+       8.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 99.5,
+      "a_star": 14.0,
+      "cap0": 0.88,
+      "cap_at": 0.0,
+      "iecc": 0.88,
+      "bracket": [
+       12.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.5,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 119.4,
+      "a_star": 13.8,
+      "cap0": 0.88,
+      "cap_at": 0.0,
+      "iecc": 0.88,
+      "bracket": [
+       12.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.5,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 139.3,
+      "a_star": 13.6,
+      "cap0": 0.88,
+      "cap_at": 0.0,
+      "iecc": 0.88,
+      "bracket": [
+       12.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.5,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 117.5,
+      "a_star": 9.25,
+      "cap0": 0.82,
+      "cap_at": 0.013,
+      "iecc": 0.807,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.8
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 141.0,
+      "a_star": 3.65,
+      "cap0": 0.82,
+      "cap_at": 0.69,
+      "iecc": 0.13,
+      "bracket": [
+       2.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.1
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 164.5,
+      "a_star": 3.03,
+      "cap0": 0.82,
+      "cap_at": 0.709,
+      "iecc": 0.111,
+      "bracket": [
+       2.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.1
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 276.5,
+      "a_star": null
+     },
+     {
+      "frac": 0.4,
+      "level": 253.8,
+      "a_star": null
+     },
+     {
+      "frac": 0.3,
+      "level": 231.1,
+      "a_star": null
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 57.2,
+      "a_star": 11.09,
+      "cap0": 0.8,
+      "cap_at": 0.002,
+      "iecc": 0.798,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.6,
+       0.5
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 68.7,
+      "a_star": 10.67,
+      "cap0": 0.8,
+      "cap_at": 0.003,
+      "iecc": 0.797,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.6,
+       0.5
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 80.2,
+      "a_star": 10.24,
+      "cap0": 0.8,
+      "cap_at": 0.004,
+      "iecc": 0.796,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.6,
+       0.5
+      ],
+      "contaminated": true
+     }
+    ]
+   ]
+  },
+  "Mistral-7B-Instruct-v0.3": {
+   "acceptance": [
+    null,
+    {
+     "frac": 0.3,
+     "iecc": 0.069
+    },
+    null,
+    null,
+    null
+   ],
+   "fp16": [
+    [
+     {
+      "frac": 0.5,
+      "level": 185.8,
+      "a_star": 4.05,
+      "cap0": 0.56,
+      "cap_at": 0.189,
+      "iecc": 0.371,
+      "bracket": [
+       4.0,
+       5.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.4
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 170.5,
+      "a_star": 2.79,
+      "cap0": 0.56,
+      "cap_at": 0.348,
+      "iecc": 0.212,
+      "bracket": [
+       2.0,
+       3.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 155.2,
+      "a_star": 2.53,
+      "cap0": 0.56,
+      "cap_at": 0.366,
+      "iecc": 0.194,
+      "bracket": [
+       2.0,
+       3.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 253.8,
+      "a_star": 1.52,
+      "cap0": 0.555,
+      "cap_at": 0.392,
+      "iecc": 0.163,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 228.4,
+      "a_star": 1.25,
+      "cap0": 0.555,
+      "cap_at": 0.44,
+      "iecc": 0.115,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 203.1,
+      "a_star": 0.98,
+      "cap0": 0.555,
+      "cap_at": 0.486,
+      "iecc": 0.069,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 57.0,
+      "a_star": 6.04,
+      "cap0": 0.53,
+      "cap_at": 0.024,
+      "iecc": 0.506,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.2,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 68.4,
+      "a_star": 5.85,
+      "cap0": 0.53,
+      "cap_at": 0.029,
+      "iecc": 0.501,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.2,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 79.8,
+      "a_star": 5.66,
+      "cap0": 0.53,
+      "cap_at": 0.034,
+      "iecc": 0.496,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.2,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 283.8,
+      "a_star": 3.41,
+      "cap0": 0.565,
+      "cap_at": 0.31,
+      "iecc": 0.255,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 251.1,
+      "a_star": 3.29,
+      "cap0": 0.565,
+      "cap_at": 0.313,
+      "iecc": 0.252,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 218.4,
+      "a_star": 3.17,
+      "cap0": 0.565,
+      "cap_at": 0.316,
+      "iecc": 0.249,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 54.2,
+      "a_star": 5.75,
+      "cap0": 0.515,
+      "cap_at": 0.006,
+      "iecc": 0.509,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.4,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 65.1,
+      "a_star": 5.5,
+      "cap0": 0.515,
+      "cap_at": 0.007,
+      "iecc": 0.508,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.4,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 76.0,
+      "a_star": 5.25,
+      "cap0": 0.515,
+      "cap_at": 0.009,
+      "iecc": 0.506,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.4,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ]
+   ],
+   "int8": [
+    [
+     {
+      "frac": 0.5,
+      "level": 185.8,
+      "a_star": 1.82,
+      "cap0": 0.51,
+      "cap_at": 0.429,
+      "iecc": 0.081,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 170.5,
+      "a_star": 1.63,
+      "cap0": 0.51,
+      "cap_at": 0.434,
+      "iecc": 0.076,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 155.2,
+      "a_star": 1.45,
+      "cap0": 0.51,
+      "cap_at": 0.439,
+      "iecc": 0.071,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 253.8,
+      "a_star": 2.32,
+      "cap0": 0.46,
+      "cap_at": 0.339,
+      "iecc": 0.121,
+      "bracket": [
+       2.0,
+       3.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 228.4,
+      "a_star": 0.99,
+      "cap0": 0.46,
+      "cap_at": 0.415,
+      "iecc": 0.045,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 203.1,
+      "a_star": 0.72,
+      "cap0": 0.46,
+      "cap_at": 0.428,
+      "iecc": 0.032,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 57.0,
+      "a_star": 6.08,
+      "cap0": 0.505,
+      "cap_at": 0.009,
+      "iecc": 0.496,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.1,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 68.4,
+      "a_star": 5.9,
+      "cap0": 0.505,
+      "cap_at": 0.011,
+      "iecc": 0.494,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.1,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 79.8,
+      "a_star": 5.71,
+      "cap0": 0.505,
+      "cap_at": 0.013,
+      "iecc": 0.492,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.1,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 283.8,
+      "a_star": 3.66,
+      "cap0": 0.5,
+      "cap_at": 0.31,
+      "iecc": 0.19,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 251.1,
+      "a_star": 3.36,
+      "cap0": 0.5,
+      "cap_at": 0.328,
+      "iecc": 0.172,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 218.4,
+      "a_star": 3.07,
+      "cap0": 0.5,
+      "cap_at": 0.346,
+      "iecc": 0.154,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 54.2,
+      "a_star": 5.87,
+      "cap0": 0.425,
+      "cap_at": 0.006,
+      "iecc": 0.419,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.3,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 65.1,
+      "a_star": 5.64,
+      "cap0": 0.425,
+      "cap_at": 0.007,
+      "iecc": 0.418,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.3,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 76.0,
+      "a_star": 5.42,
+      "cap0": 0.425,
+      "cap_at": 0.008,
+      "iecc": 0.417,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.3,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ]
+   ],
+   "nf4": [
+    [
+     {
+      "frac": 0.5,
+      "level": 185.8,
+      "a_star": 3.29,
+      "cap0": 0.36,
+      "cap_at": 0.196,
+      "iecc": 0.164,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.3
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 170.5,
+      "a_star": 3.13,
+      "cap0": 0.36,
+      "cap_at": 0.215,
+      "iecc": 0.145,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.3
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 155.2,
+      "a_star": 2.88,
+      "cap0": 0.36,
+      "cap_at": 0.24,
+      "iecc": 0.12,
+      "bracket": [
+       2.0,
+       3.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 253.8,
+      "a_star": 1.18,
+      "cap0": 0.45,
+      "cap_at": 0.327,
+      "iecc": 0.123,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 228.4,
+      "a_star": 0.96,
+      "cap0": 0.45,
+      "cap_at": 0.354,
+      "iecc": 0.096,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 203.1,
+      "a_star": 0.67,
+      "cap0": 0.45,
+      "cap_at": 0.383,
+      "iecc": 0.067,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 57.0,
+      "a_star": 6.14,
+      "cap0": 0.36,
+      "cap_at": 0.002,
+      "iecc": 0.358,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.8,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 68.4,
+      "a_star": 5.97,
+      "cap0": 0.36,
+      "cap_at": 0.003,
+      "iecc": 0.357,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.8,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 79.8,
+      "a_star": 5.8,
+      "cap0": 0.36,
+      "cap_at": 0.003,
+      "iecc": 0.357,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.8,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 283.8,
+      "a_star": null
+     },
+     {
+      "frac": 0.4,
+      "level": 251.1,
+      "a_star": null
+     },
+     {
+      "frac": 0.3,
+      "level": 218.4,
+      "a_star": null
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 54.2,
+      "a_star": 6.18,
+      "cap0": 0.35,
+      "cap_at": 0.004,
+      "iecc": 0.346,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.1,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 65.1,
+      "a_star": 6.01,
+      "cap0": 0.35,
+      "cap_at": 0.005,
+      "iecc": 0.345,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.1,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 76.0,
+      "a_star": 5.85,
+      "cap0": 0.35,
+      "cap_at": 0.006,
+      "iecc": 0.344,
+      "bracket": [
+       5.0,
+       7.0
+      ],
+      "bracket_fail": [
+       0.1,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ]
+   ]
+  },
+  "gemma-2-9b-it": {
+   "acceptance": [
+    null,
+    null,
+    {
+     "frac": 0.3,
+     "iecc": 0.005
+    },
+    null,
+    {
+     "frac": 0.4,
+     "iecc": 0.039
+    }
+   ],
+   "fp16": [
+    [
+     {
+      "frac": 0.5,
+      "level": 61.2,
+      "a_star": 283.71,
+      "cap0": 0.815,
+      "cap_at": 0.0,
+      "iecc": 0.815,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 73.5,
+      "a_star": 280.45,
+      "cap0": 0.815,
+      "cap_at": 0.0,
+      "iecc": 0.815,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 85.8,
+      "a_star": 277.19,
+      "cap0": 0.815,
+      "cap_at": 0.0,
+      "iecc": 0.815,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 76.8,
+      "a_star": 268.29,
+      "cap0": 0.81,
+      "cap_at": 0.029,
+      "iecc": 0.781,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 92.1,
+      "a_star": 261.94,
+      "cap0": 0.81,
+      "cap_at": 0.034,
+      "iecc": 0.776,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 107.5,
+      "a_star": 198.07,
+      "cap0": 0.81,
+      "cap_at": 0.304,
+      "iecc": 0.506,
+      "bracket": [
+       160.0,
+       200.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.4
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 80.5,
+      "a_star": 279.67,
+      "cap0": 0.825,
+      "cap_at": 0.0,
+      "iecc": 0.825,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.9,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 96.6,
+      "a_star": 275.61,
+      "cap0": 0.825,
+      "cap_at": 0.0,
+      "iecc": 0.825,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.9,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 112.7,
+      "a_star": 110.05,
+      "cap0": 0.825,
+      "cap_at": 0.82,
+      "iecc": 0.005,
+      "bracket": [
+       100.0,
+       120.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 73.0,
+      "a_star": 276.3,
+      "cap0": 0.85,
+      "cap_at": 0.007,
+      "iecc": 0.843,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 87.6,
+      "a_star": 271.56,
+      "cap0": 0.85,
+      "cap_at": 0.009,
+      "iecc": 0.841,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 102.2,
+      "a_star": 266.82,
+      "cap0": 0.85,
+      "cap_at": 0.01,
+      "iecc": 0.84,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 183.0,
+      "a_star": 201.59,
+      "cap0": 0.785,
+      "cap_at": 0.107,
+      "iecc": 0.678,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.1,
+       0.5
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 170.8,
+      "a_star": 119.51,
+      "cap0": 0.785,
+      "cap_at": 0.746,
+      "iecc": 0.039,
+      "bracket": [
+       100.0,
+       120.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 158.6,
+      "a_star": 110.95,
+      "cap0": 0.785,
+      "cap_at": 0.765,
+      "iecc": 0.02,
+      "bracket": [
+       100.0,
+       120.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ]
+   ],
+   "int8": [
+    [
+     {
+      "frac": 0.5,
+      "level": 61.2,
+      "a_star": 282.6,
+      "cap0": 0.805,
+      "cap_at": 0.0,
+      "iecc": 0.805,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 73.5,
+      "a_star": 279.12,
+      "cap0": 0.805,
+      "cap_at": 0.0,
+      "iecc": 0.805,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 85.8,
+      "a_star": 275.64,
+      "cap0": 0.805,
+      "cap_at": 0.0,
+      "iecc": 0.805,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.6,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 76.8,
+      "a_star": 268.02,
+      "cap0": 0.815,
+      "cap_at": 0.019,
+      "iecc": 0.796,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 92.1,
+      "a_star": 261.62,
+      "cap0": 0.815,
+      "cap_at": 0.023,
+      "iecc": 0.792,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 107.5,
+      "a_star": 255.23,
+      "cap0": 0.815,
+      "cap_at": 0.027,
+      "iecc": 0.788,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.0,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 80.5,
+      "a_star": 190.45,
+      "cap0": 0.835,
+      "cap_at": 0.447,
+      "iecc": 0.388,
+      "bracket": [
+       160.0,
+       200.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.1
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 96.6,
+      "a_star": 175.82,
+      "cap0": 0.835,
+      "cap_at": 0.549,
+      "iecc": 0.286,
+      "bracket": [
+       160.0,
+       200.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.1
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 112.7,
+      "a_star": 108.69,
+      "cap0": 0.835,
+      "cap_at": 0.8,
+      "iecc": 0.035,
+      "bracket": [
+       100.0,
+       120.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 73.0,
+      "a_star": 275.83,
+      "cap0": 0.87,
+      "cap_at": 0.0,
+      "iecc": 0.87,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.4,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 87.6,
+      "a_star": 270.99,
+      "cap0": 0.87,
+      "cap_at": 0.0,
+      "iecc": 0.87,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.4,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 102.2,
+      "a_star": 266.16,
+      "cap0": 0.87,
+      "cap_at": 0.0,
+      "iecc": 0.87,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.4,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 183.0,
+      "a_star": 208.39,
+      "cap0": 0.795,
+      "cap_at": 0.104,
+      "iecc": 0.691,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.5
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 170.8,
+      "a_star": 199.08,
+      "cap0": 0.795,
+      "cap_at": 0.136,
+      "iecc": 0.659,
+      "bracket": [
+       160.0,
+       200.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 158.6,
+      "a_star": 116.53,
+      "cap0": 0.795,
+      "cap_at": 0.771,
+      "iecc": 0.024,
+      "bracket": [
+       100.0,
+       120.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ]
+   ],
+   "nf4": [
+    [
+     {
+      "frac": 0.5,
+      "level": 61.2,
+      "a_star": 235.06,
+      "cap0": 0.735,
+      "cap_at": 0.045,
+      "iecc": 0.69,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.2,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 73.5,
+      "a_star": 232.07,
+      "cap0": 0.735,
+      "cap_at": 0.054,
+      "iecc": 0.681,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.2,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 85.8,
+      "a_star": 229.09,
+      "cap0": 0.735,
+      "cap_at": 0.063,
+      "iecc": 0.672,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.2,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 76.8,
+      "a_star": 263.1,
+      "cap0": 0.755,
+      "cap_at": 0.007,
+      "iecc": 0.748,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.1,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 92.1,
+      "a_star": 255.72,
+      "cap0": 0.755,
+      "cap_at": 0.009,
+      "iecc": 0.746,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.1,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 107.5,
+      "a_star": 36.49,
+      "cap0": 0.755,
+      "cap_at": 0.801,
+      "iecc": -0.046,
+      "bracket": [
+       20.0,
+       40.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 80.5,
+      "a_star": 282.27,
+      "cap0": 0.795,
+      "cap_at": 0.0,
+      "iecc": 0.795,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.8,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 96.6,
+      "a_star": 278.72,
+      "cap0": 0.795,
+      "cap_at": 0.0,
+      "iecc": 0.795,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.8,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 112.7,
+      "a_star": 118.13,
+      "cap0": 0.795,
+      "cap_at": 0.76,
+      "iecc": 0.035,
+      "bracket": [
+       100.0,
+       120.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 73.0,
+      "a_star": 279.02,
+      "cap0": 0.82,
+      "cap_at": 0.002,
+      "iecc": 0.818,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.2,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 87.6,
+      "a_star": 274.83,
+      "cap0": 0.82,
+      "cap_at": 0.003,
+      "iecc": 0.817,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.2,
+       1.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 102.2,
+      "a_star": 270.63,
+      "cap0": 0.82,
+      "cap_at": 0.003,
+      "iecc": 0.817,
+      "bracket": [
+       250.0,
+       300.0
+      ],
+      "bracket_fail": [
+       0.2,
+       1.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 183.0,
+      "a_star": 239.06,
+      "cap0": 0.73,
+      "cap_at": 0.016,
+      "iecc": 0.714,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.7
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 170.8,
+      "a_star": 220.0,
+      "cap0": 0.73,
+      "cap_at": 0.045,
+      "iecc": 0.685,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.7
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 158.6,
+      "a_star": 200.94,
+      "cap0": 0.73,
+      "cap_at": 0.074,
+      "iecc": 0.656,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.7
+      ],
+      "contaminated": true
+     }
+    ]
+   ]
+  }
+ },
+ "B": {
+  "Qwen2.5-7B-Instruct": {
+   "acceptance": [
+    {
+     "frac": 0.5,
+     "iecc": 0.025
+    },
+    null,
+    {
+     "frac": 0.5,
+     "iecc": 0.004
+    },
+    {
+     "frac": 0.5,
+     "iecc": 0.0
+    },
+    {
+     "frac": 0.5,
+     "iecc": 0.0
+    }
+   ],
+   "fp16": [
+    [
+     {
+      "frac": 0.5,
+      "level": 230.5,
+      "a_star": 9.38,
+      "cap0": 0.925,
+      "cap_at": 0.9,
+      "iecc": 0.025,
+      "bracket": [
+       5.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 225.0,
+      "a_star": 8.0,
+      "cap0": 0.925,
+      "cap_at": 0.904,
+      "iecc": 0.021,
+      "bracket": [
+       5.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 219.5,
+      "a_star": 6.62,
+      "cap0": 0.925,
+      "cap_at": 0.907,
+      "iecc": 0.018,
+      "bracket": [
+       5.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 178.2,
+      "a_star": 52.71,
+      "cap0": 0.915,
+      "cap_at": 0.188,
+      "iecc": 0.727,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.9
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 189.7,
+      "a_star": 51.25,
+      "cap0": 0.915,
+      "cap_at": 0.225,
+      "iecc": 0.69,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.9
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 201.2,
+      "a_star": 49.79,
+      "cap0": 0.915,
+      "cap_at": 0.263,
+      "iecc": 0.652,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.9
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 238.5,
+      "a_star": 11.4,
+      "cap0": 0.92,
+      "cap_at": 0.916,
+      "iecc": 0.004,
+      "bracket": [
+       10.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 232.6,
+      "a_star": 10.68,
+      "cap0": 0.92,
+      "cap_at": 0.916,
+      "iecc": 0.004,
+      "bracket": [
+       10.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 226.7,
+      "a_star": 9.97,
+      "cap0": 0.92,
+      "cap_at": 0.917,
+      "iecc": 0.003,
+      "bracket": [
+       5.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 161.0,
+      "a_star": 47.36,
+      "cap0": 0.93,
+      "cap_at": 0.93,
+      "iecc": 0.0,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.8
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 172.0,
+      "a_star": 44.83,
+      "cap0": 0.93,
+      "cap_at": 0.93,
+      "iecc": 0.0,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.8
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 183.0,
+      "a_star": 25.94,
+      "cap0": 0.93,
+      "cap_at": 0.93,
+      "iecc": 0.0,
+      "bracket": [
+       25.0,
+       30.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 135.0,
+      "a_star": 31.67,
+      "cap0": 0.865,
+      "cap_at": 0.865,
+      "iecc": 0.0,
+      "bracket": [
+       30.0,
+       35.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 142.8,
+      "a_star": 16.0,
+      "cap0": 0.865,
+      "cap_at": 0.865,
+      "iecc": 0.0,
+      "bracket": [
+       15.0,
+       20.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 150.6,
+      "a_star": 13.15,
+      "cap0": 0.865,
+      "cap_at": 0.865,
+      "iecc": 0.0,
+      "bracket": [
+       10.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ]
+   ],
+   "int8": [
+    [
+     {
+      "frac": 0.5,
+      "level": 230.5,
+      "a_star": 40.0,
+      "cap0": 0.91,
+      "cap_at": 0.66,
+      "iecc": 0.25,
+      "bracket": [
+       40.0,
+       40.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 225.0,
+      "a_star": 33.53,
+      "cap0": 0.91,
+      "cap_at": 0.739,
+      "iecc": 0.171,
+      "bracket": [
+       20.0,
+       40.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 219.5,
+      "a_star": 4.57,
+      "cap0": 0.91,
+      "cap_at": 0.91,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       5.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 178.2,
+      "a_star": null
+     },
+     {
+      "frac": 0.4,
+      "level": 189.7,
+      "a_star": null
+     },
+     {
+      "frac": 0.3,
+      "level": 201.2,
+      "a_star": null
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 238.5,
+      "a_star": 8.28,
+      "cap0": 0.92,
+      "cap_at": 0.912,
+      "iecc": 0.008,
+      "bracket": [
+       5.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 232.6,
+      "a_star": 8.54,
+      "cap0": 0.92,
+      "cap_at": 0.911,
+      "iecc": 0.009,
+      "bracket": [
+       5.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 226.7,
+      "a_star": 8.8,
+      "cap0": 0.92,
+      "cap_at": 0.911,
+      "iecc": 0.009,
+      "bracket": [
+       5.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 161.0,
+      "a_star": 55.2,
+      "cap0": 0.905,
+      "cap_at": 0.905,
+      "iecc": 0.0,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.5
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 172.0,
+      "a_star": 50.8,
+      "cap0": 0.905,
+      "cap_at": 0.905,
+      "iecc": 0.0,
+      "bracket": [
+       40.0,
+       60.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.5
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 183.0,
+      "a_star": 14.7,
+      "cap0": 0.905,
+      "cap_at": 0.905,
+      "iecc": 0.0,
+      "bracket": [
+       10.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 135.0,
+      "a_star": 18.75,
+      "cap0": 0.87,
+      "cap_at": 0.87,
+      "iecc": 0.0,
+      "bracket": [
+       15.0,
+       20.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 142.8,
+      "a_star": 14.37,
+      "cap0": 0.87,
+      "cap_at": 0.87,
+      "iecc": 0.0,
+      "bracket": [
+       10.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 150.6,
+      "a_star": 12.87,
+      "cap0": 0.87,
+      "cap_at": 0.87,
+      "iecc": 0.0,
+      "bracket": [
+       10.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ]
+   ],
+   "nf4": [
+    [
+     {
+      "frac": 0.5,
+      "level": 230.5,
+      "a_star": 9.31,
+      "cap0": 0.885,
+      "cap_at": 0.879,
+      "iecc": 0.006,
+      "bracket": [
+       5.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 225.0,
+      "a_star": 8.36,
+      "cap0": 0.885,
+      "cap_at": 0.879,
+      "iecc": 0.006,
+      "bracket": [
+       5.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 219.5,
+      "a_star": 7.41,
+      "cap0": 0.885,
+      "cap_at": 0.88,
+      "iecc": 0.005,
+      "bracket": [
+       5.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 178.2,
+      "a_star": null
+     },
+     {
+      "frac": 0.4,
+      "level": 189.7,
+      "a_star": null
+     },
+     {
+      "frac": 0.3,
+      "level": 201.2,
+      "a_star": null
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 238.5,
+      "a_star": 2.39,
+      "cap0": 0.895,
+      "cap_at": 0.893,
+      "iecc": 0.002,
+      "bracket": [
+       0.0,
+       5.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 232.6,
+      "a_star": 2.01,
+      "cap0": 0.895,
+      "cap_at": 0.893,
+      "iecc": 0.002,
+      "bracket": [
+       0.0,
+       5.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 226.7,
+      "a_star": 1.63,
+      "cap0": 0.895,
+      "cap_at": 0.893,
+      "iecc": 0.002,
+      "bracket": [
+       0.0,
+       5.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 161.0,
+      "a_star": null
+     },
+     {
+      "frac": 0.4,
+      "level": 172.0,
+      "a_star": null
+     },
+     {
+      "frac": 0.3,
+      "level": 183.0,
+      "a_star": 13.46,
+      "cap0": 0.89,
+      "cap_at": 0.89,
+      "iecc": 0.0,
+      "bracket": [
+       10.0,
+       15.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 135.0,
+      "a_star": 34.79,
+      "cap0": 0.86,
+      "cap_at": 0.86,
+      "iecc": 0.0,
+      "bracket": [
+       30.0,
+       35.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 142.8,
+      "a_star": 33.13,
+      "cap0": 0.86,
+      "cap_at": 0.86,
+      "iecc": 0.0,
+      "bracket": [
+       30.0,
+       35.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 150.6,
+      "a_star": 31.47,
+      "cap0": 0.86,
+      "cap_at": 0.86,
+      "iecc": 0.0,
+      "bracket": [
+       30.0,
+       35.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ]
+   ]
+  },
+  "Meta-Llama-3.1-8B-Instruct": {
+   "acceptance": [
+    null,
+    {
+     "frac": 0.5,
+     "iecc": 0.096
+    },
+    {
+     "frac": 0.5,
+     "iecc": 0.0
+    },
+    null,
+    null
+   ],
+   "fp16": [
+    [
+     {
+      "frac": 0.5,
+      "level": 259.0,
+      "a_star": 10.78,
+      "cap0": 0.875,
+      "cap_at": 0.024,
+      "iecc": 0.851,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.4,
+       0.8
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 243.2,
+      "a_star": 10.54,
+      "cap0": 0.875,
+      "cap_at": 0.029,
+      "iecc": 0.846,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.4,
+       0.8
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 227.4,
+      "a_star": 10.3,
+      "cap0": 0.875,
+      "cap_at": 0.034,
+      "iecc": 0.841,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.4,
+       0.8
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 243.0,
+      "a_star": 1.14,
+      "cap0": 0.85,
+      "cap_at": 0.754,
+      "iecc": 0.096,
+      "bracket": [
+       0.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 234.2,
+      "a_star": 0.91,
+      "cap0": 0.85,
+      "cap_at": 0.773,
+      "iecc": 0.077,
+      "bracket": [
+       0.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 225.4,
+      "a_star": 0.68,
+      "cap0": 0.85,
+      "cap_at": 0.792,
+      "iecc": 0.058,
+      "bracket": [
+       0.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 339.5,
+      "a_star": 7.03,
+      "cap0": 0.845,
+      "cap_at": 0.845,
+      "iecc": 0.0,
+      "bracket": [
+       6.0,
+       8.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.1
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 318.6,
+      "a_star": 6.83,
+      "cap0": 0.845,
+      "cap_at": 0.845,
+      "iecc": 0.0,
+      "bracket": [
+       6.0,
+       8.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.1
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 297.7,
+      "a_star": 6.64,
+      "cap0": 0.845,
+      "cap_at": 0.845,
+      "iecc": 0.0,
+      "bracket": [
+       6.0,
+       8.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.1
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 276.5,
+      "a_star": 8.67,
+      "cap0": 0.915,
+      "cap_at": 0.125,
+      "iecc": 0.79,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.4,
+       0.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 253.8,
+      "a_star": 8.4,
+      "cap0": 0.915,
+      "cap_at": 0.145,
+      "iecc": 0.77,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.4,
+       0.0
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 231.1,
+      "a_star": 8.14,
+      "cap0": 0.915,
+      "cap_at": 0.165,
+      "iecc": 0.75,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.4,
+       0.0
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 90.2,
+      "a_star": 9.48,
+      "cap0": 0.83,
+      "cap_at": 0.014,
+      "iecc": 0.816,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.3
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 95.1,
+      "a_star": 8.9,
+      "cap0": 0.83,
+      "cap_at": 0.024,
+      "iecc": 0.806,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.3
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 100.0,
+      "a_star": 8.31,
+      "cap0": 0.83,
+      "cap_at": 0.035,
+      "iecc": 0.795,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.3
+      ],
+      "contaminated": true
+     }
+    ]
+   ],
+   "int8": [
+    [
+     {
+      "frac": 0.5,
+      "level": 259.0,
+      "a_star": null
+     },
+     {
+      "frac": 0.4,
+      "level": 243.2,
+      "a_star": null
+     },
+     {
+      "frac": 0.3,
+      "level": 227.4,
+      "a_star": null
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 243.0,
+      "a_star": 6.99,
+      "cap0": 0.865,
+      "cap_at": 0.162,
+      "iecc": 0.703,
+      "bracket": [
+       6.0,
+       8.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 234.2,
+      "a_star": 6.83,
+      "cap0": 0.865,
+      "cap_at": 0.178,
+      "iecc": 0.687,
+      "bracket": [
+       6.0,
+       8.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 225.4,
+      "a_star": 1.76,
+      "cap0": 0.865,
+      "cap_at": 0.688,
+      "iecc": 0.177,
+      "bracket": [
+       0.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 339.5,
+      "a_star": null
+     },
+     {
+      "frac": 0.4,
+      "level": 318.6,
+      "a_star": null
+     },
+     {
+      "frac": 0.3,
+      "level": 297.7,
+      "a_star": null
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 276.5,
+      "a_star": 11.08,
+      "cap0": 0.925,
+      "cap_at": 0.007,
+      "iecc": 0.918,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.3,
+       0.9
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 253.8,
+      "a_star": 10.58,
+      "cap0": 0.925,
+      "cap_at": 0.011,
+      "iecc": 0.914,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.3,
+       0.9
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 231.1,
+      "a_star": 10.09,
+      "cap0": 0.925,
+      "cap_at": 0.014,
+      "iecc": 0.911,
+      "bracket": [
+       10.0,
+       12.0
+      ],
+      "bracket_fail": [
+       0.3,
+       0.9
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 90.2,
+      "a_star": 8.94,
+      "cap0": 0.85,
+      "cap_at": 0.057,
+      "iecc": 0.793,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.4
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 95.1,
+      "a_star": 8.77,
+      "cap0": 0.85,
+      "cap_at": 0.065,
+      "iecc": 0.785,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.4
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 100.0,
+      "a_star": 8.59,
+      "cap0": 0.85,
+      "cap_at": 0.073,
+      "iecc": 0.777,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.4
+      ],
+      "contaminated": true
+     }
+    ]
+   ],
+   "nf4": [
+    [
+     {
+      "frac": 0.5,
+      "level": 259.0,
+      "a_star": null
+     },
+     {
+      "frac": 0.4,
+      "level": 243.2,
+      "a_star": null
+     },
+     {
+      "frac": 0.3,
+      "level": 227.4,
+      "a_star": 9.91,
+      "cap0": 0.855,
+      "cap_at": 0.04,
+      "iecc": 0.815,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.6
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 243.0,
+      "a_star": 4.45,
+      "cap0": 0.88,
+      "cap_at": 0.495,
+      "iecc": 0.385,
+      "bracket": [
+       4.0,
+       6.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 234.2,
+      "a_star": 4.09,
+      "cap0": 0.88,
+      "cap_at": 0.526,
+      "iecc": 0.354,
+      "bracket": [
+       4.0,
+       6.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 225.4,
+      "a_star": 0.04,
+      "cap0": 0.88,
+      "cap_at": 0.876,
+      "iecc": 0.004,
+      "bracket": [
+       0.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 339.5,
+      "a_star": 4.79,
+      "cap0": 0.82,
+      "cap_at": 0.82,
+      "iecc": 0.0,
+      "bracket": [
+       4.0,
+       6.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 318.6,
+      "a_star": 4.37,
+      "cap0": 0.82,
+      "cap_at": 0.82,
+      "iecc": 0.0,
+      "bracket": [
+       4.0,
+       6.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 297.7,
+      "a_star": 0.64,
+      "cap0": 0.82,
+      "cap_at": 0.82,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 276.5,
+      "a_star": null
+     },
+     {
+      "frac": 0.4,
+      "level": 253.8,
+      "a_star": null
+     },
+     {
+      "frac": 0.3,
+      "level": 231.1,
+      "a_star": null
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 90.2,
+      "a_star": 9.84,
+      "cap0": 0.8,
+      "cap_at": 0.009,
+      "iecc": 0.791,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.6
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 95.1,
+      "a_star": 9.63,
+      "cap0": 0.8,
+      "cap_at": 0.014,
+      "iecc": 0.786,
+      "bracket": [
+       8.0,
+       10.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.6
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 100.0,
+      "a_star": 3.83,
+      "cap0": 0.8,
+      "cap_at": 0.507,
+      "iecc": 0.293,
+      "bracket": [
+       2.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ]
+   ]
+  },
+  "Mistral-7B-Instruct-v0.3": {
+   "acceptance": [
+    null,
+    {
+     "frac": 0.3,
+     "iecc": 0.069
+    },
+    {
+     "frac": 0.5,
+     "iecc": 0.0
+    },
+    null,
+    {
+     "frac": 0.5,
+     "iecc": 0.0
+    }
+   ],
+   "fp16": [
+    [
+     {
+      "frac": 0.5,
+      "level": 185.8,
+      "a_star": 4.05,
+      "cap0": 0.56,
+      "cap_at": 0.189,
+      "iecc": 0.371,
+      "bracket": [
+       4.0,
+       5.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.4
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 170.5,
+      "a_star": 2.79,
+      "cap0": 0.56,
+      "cap_at": 0.348,
+      "iecc": 0.212,
+      "bracket": [
+       2.0,
+       3.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 155.2,
+      "a_star": 2.53,
+      "cap0": 0.56,
+      "cap_at": 0.366,
+      "iecc": 0.194,
+      "bracket": [
+       2.0,
+       3.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 253.8,
+      "a_star": 1.52,
+      "cap0": 0.555,
+      "cap_at": 0.392,
+      "iecc": 0.163,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 228.4,
+      "a_star": 1.25,
+      "cap0": 0.555,
+      "cap_at": 0.44,
+      "iecc": 0.115,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 203.1,
+      "a_star": 0.98,
+      "cap0": 0.555,
+      "cap_at": 0.486,
+      "iecc": 0.069,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 92.5,
+      "a_star": 2.73,
+      "cap0": 0.53,
+      "cap_at": 0.53,
+      "iecc": 0.0,
+      "bracket": [
+       2.0,
+       3.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 96.8,
+      "a_star": 2.61,
+      "cap0": 0.53,
+      "cap_at": 0.53,
+      "iecc": 0.0,
+      "bracket": [
+       2.0,
+       3.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 101.1,
+      "a_star": 2.5,
+      "cap0": 0.53,
+      "cap_at": 0.53,
+      "iecc": 0.0,
+      "bracket": [
+       2.0,
+       3.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 283.8,
+      "a_star": 3.41,
+      "cap0": 0.565,
+      "cap_at": 0.31,
+      "iecc": 0.255,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 251.1,
+      "a_star": 3.29,
+      "cap0": 0.565,
+      "cap_at": 0.313,
+      "iecc": 0.252,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 218.4,
+      "a_star": 3.17,
+      "cap0": 0.565,
+      "cap_at": 0.316,
+      "iecc": 0.249,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 85.2,
+      "a_star": 0.74,
+      "cap0": 0.515,
+      "cap_at": 0.515,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 89.9,
+      "a_star": 0.59,
+      "cap0": 0.515,
+      "cap_at": 0.515,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 94.5,
+      "a_star": 0.44,
+      "cap0": 0.515,
+      "cap_at": 0.515,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ]
+   ],
+   "int8": [
+    [
+     {
+      "frac": 0.5,
+      "level": 185.8,
+      "a_star": 1.82,
+      "cap0": 0.51,
+      "cap_at": 0.429,
+      "iecc": 0.081,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 170.5,
+      "a_star": 1.63,
+      "cap0": 0.51,
+      "cap_at": 0.434,
+      "iecc": 0.076,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 155.2,
+      "a_star": 1.45,
+      "cap0": 0.51,
+      "cap_at": 0.439,
+      "iecc": 0.071,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 253.8,
+      "a_star": 2.32,
+      "cap0": 0.46,
+      "cap_at": 0.339,
+      "iecc": 0.121,
+      "bracket": [
+       2.0,
+       3.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 228.4,
+      "a_star": 0.99,
+      "cap0": 0.46,
+      "cap_at": 0.415,
+      "iecc": 0.045,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 203.1,
+      "a_star": 0.72,
+      "cap0": 0.46,
+      "cap_at": 0.428,
+      "iecc": 0.032,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 92.5,
+      "a_star": null
+     },
+     {
+      "frac": 0.4,
+      "level": 96.8,
+      "a_star": 3.95,
+      "cap0": 0.505,
+      "cap_at": 0.505,
+      "iecc": 0.0,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 101.1,
+      "a_star": 0.94,
+      "cap0": 0.505,
+      "cap_at": 0.505,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 283.8,
+      "a_star": 3.66,
+      "cap0": 0.5,
+      "cap_at": 0.31,
+      "iecc": 0.19,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 251.1,
+      "a_star": 3.36,
+      "cap0": 0.5,
+      "cap_at": 0.328,
+      "iecc": 0.172,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 218.4,
+      "a_star": 3.07,
+      "cap0": 0.5,
+      "cap_at": 0.346,
+      "iecc": 0.154,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 85.2,
+      "a_star": 0.59,
+      "cap0": 0.425,
+      "cap_at": 0.425,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 89.9,
+      "a_star": 0.5,
+      "cap0": 0.425,
+      "cap_at": 0.425,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 94.5,
+      "a_star": 0.4,
+      "cap0": 0.425,
+      "cap_at": 0.425,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ]
+   ],
+   "nf4": [
+    [
+     {
+      "frac": 0.5,
+      "level": 185.8,
+      "a_star": 3.29,
+      "cap0": 0.36,
+      "cap_at": 0.196,
+      "iecc": 0.164,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.3
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 170.5,
+      "a_star": 3.13,
+      "cap0": 0.36,
+      "cap_at": 0.215,
+      "iecc": 0.145,
+      "bracket": [
+       3.0,
+       4.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.3
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 155.2,
+      "a_star": 2.88,
+      "cap0": 0.36,
+      "cap_at": 0.24,
+      "iecc": 0.12,
+      "bracket": [
+       2.0,
+       3.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 253.8,
+      "a_star": 1.18,
+      "cap0": 0.45,
+      "cap_at": 0.327,
+      "iecc": 0.123,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 228.4,
+      "a_star": 0.96,
+      "cap0": 0.45,
+      "cap_at": 0.354,
+      "iecc": 0.096,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 203.1,
+      "a_star": 0.67,
+      "cap0": 0.45,
+      "cap_at": 0.383,
+      "iecc": 0.067,
+      "bracket": [
+       0.0,
+       1.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 92.5,
+      "a_star": null
+     },
+     {
+      "frac": 0.4,
+      "level": 96.8,
+      "a_star": null
+     },
+     {
+      "frac": 0.3,
+      "level": 101.1,
+      "a_star": 2.77,
+      "cap0": 0.36,
+      "cap_at": 0.36,
+      "iecc": 0.0,
+      "bracket": [
+       2.0,
+       3.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 283.8,
+      "a_star": null
+     },
+     {
+      "frac": 0.4,
+      "level": 251.1,
+      "a_star": null
+     },
+     {
+      "frac": 0.3,
+      "level": 218.4,
+      "a_star": null
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 85.2,
+      "a_star": 1.71,
+      "cap0": 0.35,
+      "cap_at": 0.35,
+      "iecc": 0.0,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 89.9,
+      "a_star": 1.56,
+      "cap0": 0.35,
+      "cap_at": 0.35,
+      "iecc": 0.0,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 94.5,
+      "a_star": 1.41,
+      "cap0": 0.35,
+      "cap_at": 0.35,
+      "iecc": 0.0,
+      "bracket": [
+       1.0,
+       2.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ]
+   ]
+  },
+  "gemma-2-9b-it": {
+   "acceptance": [
+    null,
+    {
+     "frac": 0.5,
+     "iecc": 0.0
+    },
+    {
+     "frac": 0.5,
+     "iecc": 0.0
+    },
+    {
+     "frac": 0.5,
+     "iecc": 0.0
+    },
+    {
+     "frac": 0.4,
+     "iecc": 0.039
+    }
+   ],
+   "fp16": [
+    [
+     {
+      "frac": 0.5,
+      "level": 155.2,
+      "a_star": 178.65,
+      "cap0": 0.815,
+      "cap_at": 0.266,
+      "iecc": 0.549,
+      "bracket": [
+       160.0,
+       200.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.2
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 148.7,
+      "a_star": 173.62,
+      "cap0": 0.815,
+      "cap_at": 0.281,
+      "iecc": 0.534,
+      "bracket": [
+       160.0,
+       200.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.2
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 142.2,
+      "a_star": 168.58,
+      "cap0": 0.815,
+      "cap_at": 0.297,
+      "iecc": 0.518,
+      "bracket": [
+       160.0,
+       200.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.2
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 203.2,
+      "a_star": 107.24,
+      "cap0": 0.81,
+      "cap_at": 0.81,
+      "iecc": 0.0,
+      "bracket": [
+       100.0,
+       120.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 193.3,
+      "a_star": 104.69,
+      "cap0": 0.81,
+      "cap_at": 0.81,
+      "iecc": 0.0,
+      "bracket": [
+       100.0,
+       120.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 183.3,
+      "a_star": 102.14,
+      "cap0": 0.81,
+      "cap_at": 0.81,
+      "iecc": 0.0,
+      "bracket": [
+       100.0,
+       120.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 124.5,
+      "a_star": 70.0,
+      "cap0": 0.825,
+      "cap_at": 0.825,
+      "iecc": 0.0,
+      "bracket": [
+       60.0,
+       80.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 131.8,
+      "a_star": 28.8,
+      "cap0": 0.825,
+      "cap_at": 0.825,
+      "iecc": 0.0,
+      "bracket": [
+       20.0,
+       40.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 139.1,
+      "a_star": 16.22,
+      "cap0": 0.825,
+      "cap_at": 0.825,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       20.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 117.0,
+      "a_star": 125.88,
+      "cap0": 0.85,
+      "cap_at": 0.85,
+      "iecc": 0.0,
+      "bracket": [
+       120.0,
+       160.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.4
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 122.8,
+      "a_star": 75.76,
+      "cap0": 0.85,
+      "cap_at": 0.85,
+      "iecc": 0.0,
+      "bracket": [
+       60.0,
+       80.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 128.6,
+      "a_star": 62.12,
+      "cap0": 0.85,
+      "cap_at": 0.85,
+      "iecc": 0.0,
+      "bracket": [
+       60.0,
+       80.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 183.0,
+      "a_star": 201.59,
+      "cap0": 0.785,
+      "cap_at": 0.107,
+      "iecc": 0.678,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.1,
+       0.5
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 170.8,
+      "a_star": 119.51,
+      "cap0": 0.785,
+      "cap_at": 0.746,
+      "iecc": 0.039,
+      "bracket": [
+       100.0,
+       120.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 158.6,
+      "a_star": 110.95,
+      "cap0": 0.785,
+      "cap_at": 0.765,
+      "iecc": 0.02,
+      "bracket": [
+       100.0,
+       120.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ]
+   ],
+   "int8": [
+    [
+     {
+      "frac": 0.5,
+      "level": 155.2,
+      "a_star": 222.7,
+      "cap0": 0.805,
+      "cap_at": 0.117,
+      "iecc": 0.688,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.6
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 148.7,
+      "a_star": 214.08,
+      "cap0": 0.805,
+      "cap_at": 0.154,
+      "iecc": 0.651,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.6
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 142.2,
+      "a_star": 205.46,
+      "cap0": 0.805,
+      "cap_at": 0.192,
+      "iecc": 0.613,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.6
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 203.2,
+      "a_star": 186.52,
+      "cap0": 0.815,
+      "cap_at": 0.815,
+      "iecc": 0.0,
+      "bracket": [
+       160.0,
+       200.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 193.3,
+      "a_star": 169.22,
+      "cap0": 0.815,
+      "cap_at": 0.815,
+      "iecc": 0.0,
+      "bracket": [
+       160.0,
+       200.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 183.3,
+      "a_star": 155.35,
+      "cap0": 0.815,
+      "cap_at": 0.815,
+      "iecc": 0.0,
+      "bracket": [
+       120.0,
+       160.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 124.5,
+      "a_star": 80.48,
+      "cap0": 0.835,
+      "cap_at": 0.835,
+      "iecc": 0.0,
+      "bracket": [
+       80.0,
+       100.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 131.8,
+      "a_star": null
+     },
+     {
+      "frac": 0.3,
+      "level": 139.1,
+      "a_star": null
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 117.0,
+      "a_star": 110.43,
+      "cap0": 0.87,
+      "cap_at": 0.87,
+      "iecc": 0.0,
+      "bracket": [
+       100.0,
+       120.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 122.8,
+      "a_star": 77.0,
+      "cap0": 0.87,
+      "cap_at": 0.87,
+      "iecc": 0.0,
+      "bracket": [
+       60.0,
+       80.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 128.6,
+      "a_star": 67.33,
+      "cap0": 0.87,
+      "cap_at": 0.87,
+      "iecc": 0.0,
+      "bracket": [
+       60.0,
+       80.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 183.0,
+      "a_star": 208.39,
+      "cap0": 0.795,
+      "cap_at": 0.104,
+      "iecc": 0.691,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.5
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 170.8,
+      "a_star": 199.08,
+      "cap0": 0.795,
+      "cap_at": 0.136,
+      "iecc": 0.659,
+      "bracket": [
+       160.0,
+       200.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 158.6,
+      "a_star": 116.53,
+      "cap0": 0.795,
+      "cap_at": 0.771,
+      "iecc": 0.024,
+      "bracket": [
+       100.0,
+       120.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ]
+   ],
+   "nf4": [
+    [
+     {
+      "frac": 0.5,
+      "level": 155.2,
+      "a_star": 160.2,
+      "cap0": 0.735,
+      "cap_at": 0.578,
+      "iecc": 0.157,
+      "bracket": [
+       160.0,
+       200.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.2
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 148.7,
+      "a_star": 146.74,
+      "cap0": 0.735,
+      "cap_at": 0.593,
+      "iecc": 0.142,
+      "bracket": [
+       120.0,
+       160.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 142.2,
+      "a_star": 132.95,
+      "cap0": 0.735,
+      "cap_at": 0.606,
+      "iecc": 0.129,
+      "bracket": [
+       120.0,
+       160.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 203.2,
+      "a_star": 224.72,
+      "cap0": 0.755,
+      "cap_at": 0.755,
+      "iecc": 0.0,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.4,
+       0.6
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 193.3,
+      "a_star": 221.07,
+      "cap0": 0.755,
+      "cap_at": 0.755,
+      "iecc": 0.0,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.4,
+       0.6
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 183.3,
+      "a_star": 217.41,
+      "cap0": 0.755,
+      "cap_at": 0.755,
+      "iecc": 0.0,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.4,
+       0.6
+      ],
+      "contaminated": true
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 124.5,
+      "a_star": 28.33,
+      "cap0": 0.795,
+      "cap_at": 0.795,
+      "iecc": 0.0,
+      "bracket": [
+       20.0,
+       40.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 131.8,
+      "a_star": 13.14,
+      "cap0": 0.795,
+      "cap_at": 0.795,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       20.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 139.1,
+      "a_star": 2.71,
+      "cap0": 0.795,
+      "cap_at": 0.795,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       20.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 117.0,
+      "a_star": 96.19,
+      "cap0": 0.82,
+      "cap_at": 0.82,
+      "iecc": 0.0,
+      "bracket": [
+       80.0,
+       100.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.4,
+      "level": 122.8,
+      "a_star": 18.11,
+      "cap0": 0.82,
+      "cap_at": 0.82,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       20.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     },
+     {
+      "frac": 0.3,
+      "level": 128.6,
+      "a_star": 12.0,
+      "cap0": 0.82,
+      "cap_at": 0.82,
+      "iecc": 0.0,
+      "bracket": [
+       0.0,
+       20.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.0
+      ],
+      "contaminated": false
+     }
+    ],
+    [
+     {
+      "frac": 0.5,
+      "level": 183.0,
+      "a_star": 239.06,
+      "cap0": 0.73,
+      "cap_at": 0.016,
+      "iecc": 0.714,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.7
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.4,
+      "level": 170.8,
+      "a_star": 220.0,
+      "cap0": 0.73,
+      "cap_at": 0.045,
+      "iecc": 0.685,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.7
+      ],
+      "contaminated": true
+     },
+     {
+      "frac": 0.3,
+      "level": 158.6,
+      "a_star": 200.94,
+      "cap0": 0.73,
+      "cap_at": 0.074,
+      "iecc": 0.656,
+      "bracket": [
+       200.0,
+       250.0
+      ],
+      "bracket_fail": [
+       0.0,
+       0.7
+      ],
+      "contaminated": true
+     }
+    ]
+   ]
+  }
+ }
+}

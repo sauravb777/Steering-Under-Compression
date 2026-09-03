@@ -1,0 +1,9 @@
+File:      SteerQuant_Mistral-7B-Instruct-v0-3_w4a16_bnb_nf4_length_L16_r4_COMPLETE_20260720.json
+Created:   2026-07-20T18:43:21.614002
+Script:    steerquant_phase0_harness.py
+Source:    local inference (mistralai/Mistral-7B-Instruct-v0.3, w4a16_bnb_nf4)
+Records:   21 alpha conditions
+Judge:     judge-free:generated-token-count
+Notes:     Efficacy from the behavioral judge above (NOT the old lexical scorer).
+           Baseline = alpha 0.0. Iso-effect (IECC) analysis: steerquant_analysis.py.
+Next step: sweep weight-only schemes (w*_bnb / _gptq / _awq) via --scheme; aggregate IECC.

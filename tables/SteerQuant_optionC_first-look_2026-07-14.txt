@@ -1,0 +1,63 @@
+﻿
+##############################################################################
+GROUP  model=Qwen/Qwen2.5-7B-Instruct  target=sentiment  [Option C run-level combine]
+##############################################################################
+Option C combine: REML tau2 + modified Knapp-Hartung over runs (METHOD_NOTE_optionC-REML-HK_2026-07-14.md)
+  fp16 IECC (descriptive): +0.0297  95% CI [-0.0060,+0.0655]  tau=0.0000  runs=[1,2,3,4,5]  E* frac(s)=[0.5]
+
+  w4a16_bnb_nf4  contrast IECC(scheme) - IECC(fp16), k=5 runs
+    per-run: r1:+0.0265  r2:+0.0055  r3:+0.0073  r4:+0.0377  r5:-0.0015
+    tau2(REML)=0.000000  q=0.300  [modified KH applied]
+    combined +0.0137  90% CI [-0.0159,+0.0433]  95% CI [-0.0248,+0.0523]  (t, df=4)
+    H1 three-label: Inconclusive
+
+  w8a16_bnb_int8  contrast IECC(scheme) - IECC(fp16), k=5 runs
+    per-run: r1:+0.0522  r2:+0.0039  r3:-0.0139  r4:-0.0159  r5:-0.0450
+    tau2(REML)=0.000000  q=0.990  [modified KH applied]
+    combined -0.0113  90% CI [-0.0387,+0.0162]  95% CI [-0.0470,+0.0245]  (t, df=4)
+    H1 three-label: Inconclusive
+
+##############################################################################
+GROUP  model=meta-llama/Meta-Llama-3.1-8B-Instruct  target=sentiment  [Option C run-level combine]
+##############################################################################
+Option C combine: REML tau2 + modified Knapp-Hartung over runs (METHOD_NOTE_optionC-REML-HK_2026-07-14.md)
+  NOTE: run r=1: sec.7 E* ladder NOT accepted on fp16 -> run EXCLUDED
+  fp16 IECC (descriptive): +0.0774  95% CI [+0.0093,+0.1454]  tau=0.0000  runs=[2,3,4,5]  E* frac(s)=[0.4, 0.5]
+
+  w4a16_bnb_nf4  contrast IECC(scheme) - IECC(fp16), k=4 runs
+    per-run: r2:-0.0158  r3:-0.0904  r4:-0.0195  r5:-0.0171
+    tau2(REML)=0.000000  q=0.291  [modified KH applied]
+    combined -0.0402  90% CI [-0.1231,+0.0426]  95% CI [-0.1523,+0.0718]  (t, df=3)
+    H1 three-label: Inconclusive
+
+  w8a16_bnb_int8  contrast IECC(scheme) - IECC(fp16), k=4 runs
+    per-run: r2:+0.1124  r3:+0.0274  r4:-0.0395  r5:-0.0648
+    tau2(REML)=0.004249  q=0.916  [modified KH applied]
+    combined +0.0164  90% CI [-0.0840,+0.1167]  95% CI [-0.1194,+0.1521]  (t, df=3)
+    H1 three-label: Inconclusive
+
+##############################################################################
+GROUP  model=mistralai/Mistral-7B-Instruct-v0.3  target=sentiment  [Option C run-level combine]
+##############################################################################
+Option C combine: REML tau2 + modified Knapp-Hartung over runs (METHOD_NOTE_optionC-REML-HK_2026-07-14.md)
+  fp16 IECC (descriptive): +0.0495  95% CI [-0.0046,+0.1036]  tau=0.0000  runs=[1,2,3,4,5]  E* frac(s)=[0.4, 0.5]
+
+  w4a16_bnb_nf4  contrast IECC(scheme) - IECC(fp16), k=5 runs
+    per-run: r1:-0.0413  r2:+0.0309  r3:-0.1117  r4:-0.1133  r5:-0.0549
+    tau2(REML)=0.000000  q=0.776  [modified KH applied]
+    combined -0.0682  90% CI [-0.1228,-0.0136]  95% CI [-0.1393,+0.0029]  (t, df=4)
+    H1 three-label: Inconclusive
+
+  w8a16_bnb_int8  contrast IECC(scheme) - IECC(fp16), k=5 runs
+    per-run: r1:+0.0133  r2:+0.0429  r3:-0.0563  r4:-0.0408  r5:-0.0624
+    tau2(REML)=0.000000  q=0.781  [modified KH applied]
+    combined -0.0237  90% CI [-0.0696,+0.0222]  95% CI [-0.0835,+0.0361]  (t, df=4)
+    H1 three-label: Inconclusive
+
+CROSS-MODEL POOL  target=sentiment  scheme=w4a16_bnb_nf4  models=['Qwen/Qwen2.5-7B-Instruct', 'meta-llama/Meta-Llama-3.1-8B-Instruct', 'mistralai/Mistral-7B-Instruct-v0.3']
+  pooled=-0.0278  90% CI [-0.0757,+0.0202]  95% CI [-0.0849,+0.0294]  tau_model=0.0439  I2=0.77  branch=per_cell
+  H1 (sec.2A gate): Inconclusive  [gate FAILED -> descriptive only]  [k<12: subset of the K=12 pool -- confirmatory H1 is the full pool]
+
+CROSS-MODEL POOL  target=sentiment  scheme=w8a16_bnb_int8  models=['Qwen/Qwen2.5-7B-Instruct', 'meta-llama/Meta-Llama-3.1-8B-Instruct', 'mistralai/Mistral-7B-Instruct-v0.3']
+  pooled=-0.0126  90% CI [-0.0302,+0.0050]  95% CI [-0.0336,+0.0084]  tau_model=0.0000  I2=0.00  branch=pooled_K16
+  H1 (sec.2A gate): Inconclusive  [k<12: subset of the K=12 pool -- confirmatory H1 is the full pool]

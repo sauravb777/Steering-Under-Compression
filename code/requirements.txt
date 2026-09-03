@@ -1,0 +1,20 @@
+# SteerQuant runtime -- core (vast.ai Linux CUDA box; Python 3.10-3.12).
+# fp16 + bitsandbytes weight-only (int8/nf4) + sentiment/length run with just these.
+torch>=2.4            # install the wheel matching the box CUDA (cu121/cu124)
+transformers>=4.44
+datasets>=2.20
+numpy>=1.26
+accelerate>=0.33      # device_map="auto"
+bitsandbytes>=0.43    # weight-only int8 / nf4 (Linux CUDA wheels)
+sentencepiece         # some tokenizers need it
+pytest                # run_offline_checks.py's detector test suite (2026-07-11; bare boxes lack it)
+
+# --- GPTQ / AWQ pre-quantized checkpoints (ONLY for w*_gptq / w4a16_awq schemes) ---
+# Version-sensitive vs torch; install only when running those schemes, and pin to what
+# the box's torch/CUDA supports. transformers auto-detects the backend from the config.
+# optimum>=1.21
+# gptqmodel>=1.0        # (or auto-gptq)
+# autoawq>=0.2.6
+
+# Judge (sycophancy/truthfulness) uses Ollama's OpenAI-compatible API over stdlib urllib
+# -- no Python dependency here. Install Ollama at the OS level (see provisioning note).

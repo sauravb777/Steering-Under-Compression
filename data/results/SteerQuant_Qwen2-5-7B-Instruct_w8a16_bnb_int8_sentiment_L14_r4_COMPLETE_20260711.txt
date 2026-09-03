@@ -1,0 +1,9 @@
+File:      SteerQuant_Qwen2-5-7B-Instruct_w8a16_bnb_int8_sentiment_L14_r4_COMPLETE_20260711.json
+Created:   2026-07-11T21:43:55.576478
+Script:    steerquant_phase0_harness.py
+Source:    local inference (Qwen/Qwen2.5-7B-Instruct, w8a16_bnb_int8)
+Records:   18 alpha conditions
+Judge:     {'judge': 'steerquant-judge-0.3', 'target': 'sentiment', 'backend': 'hf-classifier', 'model': 'cardiffnlp/twitter-roberta-base-sentiment-latest', 'scoring': 'logodds', 'device': 'cuda'}
+Notes:     Efficacy from the behavioral judge above (NOT the old lexical scorer).
+           Baseline = alpha 0.0. Iso-effect (IECC) analysis: steerquant_analysis.py.
+Next step: sweep weight-only schemes (w*_bnb / _gptq / _awq) via --scheme; aggregate IECC.

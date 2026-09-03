@@ -1,0 +1,9 @@
+File:      SteerQuant_gemma-2-9b-it_w4a16_bnb_nf4_length_L21_r2_COMPLETE_20260723.json
+Created:   2026-07-23T11:11:47.758143
+Script:    steerquant_phase0_harness.py
+Source:    local inference (google/gemma-2-9b-it, w4a16_bnb_nf4)
+Records:   21 alpha conditions
+Judge:     judge-free:generated-token-count
+Notes:     Efficacy from the behavioral judge above (NOT the old lexical scorer).
+           Baseline = alpha 0.0. Iso-effect (IECC) analysis: steerquant_analysis.py.
+Next step: sweep weight-only schemes (w*_bnb / _gptq / _awq) via --scheme; aggregate IECC.
